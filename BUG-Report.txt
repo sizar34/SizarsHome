@@ -1,0 +1,26 @@
+BUG Report 
+
+ENV:https://www.saucedemo.com
+username : standard_user
+password : secret_sauce
+
+
+Description : 
+Wrong syntax for form that we fill after the purchase 
+
+
+Steps to Reproduce : 
+1) Go to https://www.saucedemo.com
+2) use the username and password to login that attached above 
+3) add random product to cart
+4) click on cart icon 
+5) Click Checkout
+6) Fill the first name with numbers
+7) Fill last name with numbers
+
+
+Expected Result : 
+Names or Last Name can't be numbers
+
+Actual Result :
+can fill name or last name with number and continue for the next step  
